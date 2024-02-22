@@ -1,7 +1,9 @@
 import torch
 from llama import load_pretrained
+import os
 
 seed = 1337
+print(os.getcwd())
 torch.manual_seed(seed)
 torch.cuda.manual_seed(seed)
 
